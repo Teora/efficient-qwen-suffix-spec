@@ -1,0 +1,11 @@
+# Model weights — released on HF Hub, not in git
+qwen-awq-v128k/
+qwen-awq-int4/
+*.safetensors
+# Build artifacts
+*.tar.gz
+image.tar.gz
+# Secrets / local
+.env
+__pycache__/
+*.pyc
